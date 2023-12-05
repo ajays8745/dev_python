@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo cp -rf app.conf /etc/nginx/sites-available/crm
+sudo cp -rf crm.conf /etc/nginx/sites-available/crm
 chmod 710 /var/lib/jenkins/workspace/Django-CICD
 
 sudo ln -s /etc/nginx/sites-available/crm /etc/nginx/sites-enabled
