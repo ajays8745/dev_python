@@ -6,8 +6,8 @@ pipeline{
             steps  
             {
             sh '''
-            chmod +x venvsetup.sh
-            ./venvsetup.sh
+            chmod +x envsetup.sh
+            ./envsetup.sh
             '''
             }
         }
